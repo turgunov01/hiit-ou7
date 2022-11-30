@@ -42,7 +42,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     spaceBetween: 50,
     speed: 1000,
     duration: 2000,
-    transition: 500,
 
     breakpoints: {
       0: {
