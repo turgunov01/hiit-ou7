@@ -336,6 +336,7 @@ ul {
     top: 2rem;
     left: 2rem;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 .type-level-about {
