@@ -153,7 +153,7 @@ ul {
     font-size: 50px;
     line-height: 60px;
     color: white;
-    max-width: 76.6rem;
+    max-width: 60rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -337,8 +337,8 @@ ul {
     left: 2rem;
     font-weight: 700;
     text-transform: uppercase;
-    font-size: 1.2rem;
-    line-height: 2.2rem;
+    font-size: 1.2rem !important;
+    line-height: 2.2rem !important;
 }
 
 .type-level-about {

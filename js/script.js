@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     spaceBetween: 50,
     speed: 1000,
     duration: 2000,
-
+    transition: 10000,
     breakpoints: {
       0: {
         spaceBetween: 20,
@@ -76,4 +76,3 @@ window.onload = function () {
 window.resize = function () {
   swiper.reInit()
 }
-
