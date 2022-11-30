@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         allowSlidePrev: true,
       },
       600: {
-        slidesPerView: 2,
+        slidesPerView: 'auto',
         spaceBetween: 120
       },
       1000: {
@@ -38,7 +38,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
     autoplay: {
       delay: 5000,
     },
-
     slidesPerView: 'auto',
     spaceBetween: 50,
     speed: 1000,
@@ -69,9 +68,13 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
 
 window.onload = function () {
-  if (!window.location.hash) {
+  if (!window.location.href) {
     window.location = window.location + '#loaded';
     window.location.reload();
   }
+}
+
+window.resize = function () {
+  swiper.reInit()
 }
 
