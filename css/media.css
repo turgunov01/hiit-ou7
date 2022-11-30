@@ -30,31 +30,32 @@
     .comment {
         right: calc(100% / 20);
     }
+
 }
 
 @media(max-width: 990px) {
     .play {
-        left: calc(100vw / 10);
+        left: calc(100vw / 6);
         top: 2rem;
-        width: 6rem;
+        width: 9rem;
     }
 
     .stickman {
-        right: -57rem;
-        width: 6rem;
-        top: 7rem;
+        right: -73rem;
+        width: 9rem;
+        top: 8rem;
     }
 
     .autoGraphics {
-        bottom: 11rem;
-        right: calc(100vw / 7);
+        bottom: 15rem;
+        right: calc(100vw / 8);
     }
 
     .calory {
-        max-width: 14rem;
-        height: 10rem;
-        top: 27rem;
-        left: calc(100vw / 7);
+        max-width: 17rem;
+        height: 13rem;
+        top: 34rem;
+        left: calc(100vw / 6);
     }
 
     .swiper-slide__absolute-graphics {
@@ -121,7 +122,7 @@
     }
 
     .autoGraphics img {
-        width: 7rem;
+        width: 10rem;
     }
 
     .swiper-title-hiit {
@@ -131,6 +132,35 @@
 
     .woman__name {
         width: 90%;
+    }
+}
+
+@media(max-width: 880px) {
+    .stickman {
+        right: -63rem;
+        width: 7rem;
+        top: 7rem;
+    }
+
+    .play {
+        left: calc(100vw / 6);
+        top: 2rem;
+        width: 7rem;
+    }
+
+    .calory {
+        max-width: 16rem;
+        height: 12rem;
+        top: 30rem;
+        left: calc(100vw / 8);
+    }
+
+    .autoGraphics {
+        bottom: 13rem;
+    }
+
+    .autoGraphics img {
+        width: 9rem;
     }
 }
 
@@ -145,31 +175,32 @@
     }
 
     .stickman {
-        right: -51rem;
-        width: 5rem;
-        top: 6rem;
+        right: -52rem;
+        width: 6rem;
+        top: 2rem;
     }
 
     .autoGraphics img {
-        width: 6rem;
+        width: 8rem;
     }
 
     .autoGraphics {
-        bottom: 9rem;
-        right: calc(100vw / 8);
+        bottom: 5.5rem;
+        right: 0;
     }
 
     .calory {
         max-width: 13rem;
         height: 10rem;
-        top: 23rem;
-        left: calc(100vw / 8);
+        top: 27rem;
+        left: calc(100vw / 6);
         border-radius: .8rem;
     }
 
     .comment {
         display: none;
     }
+
 
     .comment.mobileComment {
         display: block;
@@ -196,12 +227,33 @@
 
     .phone__player.first {
         position: relative;
-        left: -50%;
+        left: -30%;
     }
+
+    .phone__player {
+        width: 80rem;
+        height: 30rem;
+    }
+
+    .phone__player.w100 {
+        width: 80rem;
+        height: 40rem;
+        max-width: unset;
+    }
+
+    .swiper-slide__absolute-graphics {
+        width: 10rem;
+    }
+
+    .swiper__slide-absolutes {
+        left: calc(100vw / 3.5) !important;
+    }
+
+
 
     .phone__player.second {
         position: relative;
-        left: 50%;
+        left: 30%;
     }
 
     .swiper-absolute-flex.hide {
@@ -249,6 +301,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding-bottom: .5rem;
     }
 
     .footer__logo {
@@ -266,7 +319,7 @@
     }
 
     .footer__list {
-        column-gap: 1.5rem;
+        column-gap: 1.75rem;
     }
 
     .footer__item {
@@ -292,21 +345,25 @@
 
     .swiper-slide__absolute-image1 {
         bottom: 13rem;
-        left: calc(100vw / 3);
-        max-width: 18rem;
-        height: 13rem;
+        left: calc(100vw / 4);
+        max-width: 22rem;
+        height: 16rem;
         min-height: unset;
         max-height: unset;
+    }
+
+    .appstore,
+    .google {
+        width: 20rem;
+    }
+
+    .banner__title {
+        padding: 17rem 0 0 0;
     }
 
     .swiper-slide__absolute-image {
         height: 7.5rem;
         display: none;
-    }
-
-    .swiper__slide-absolutes {
-        right: unset !important;
-        left: calc(100vw / 4.4) !important;
     }
 
     .swiper__slide-absolutes {
@@ -317,8 +374,8 @@
 @media(max-width: 660px) {
     .play {
         left: calc(100vw / 10);
-        width: 5rem;
-        top: -2rem;
+        width: 6rem;
+        top: -3rem;
     }
 
     .main {
@@ -326,16 +383,16 @@
     }
 
     .stickman {
-        right: -47rem;
-        width: 5rem;
-        top: 2rem;
+        right: -52rem;
+        width: 6rem;
+        top: 1rem;
     }
 
     .calory {
         max-width: 13rem;
         height: 10rem;
-        top: 21rem;
-        left: calc(100vw / 16);
+        top: 23rem;
+        left: calc(100vw / 12);
         border-radius: .8rem;
     }
 
@@ -345,11 +402,11 @@
     }
 
     .main__swiper {
-        margin-top: 14rem;
+        margin-top: 15rem;
     }
 
     .swiper__slide-absolutes {
-        left: calc(100vw / 4) !important;
+        left: calc(100vw / 3) !important;
     }
 
     .main__intro {
@@ -368,30 +425,34 @@
         line-height: 3rem;
         max-width: 50rem;
     }
+
+    .mobileComment {
+        top: -7.5rem;
+    }
 }
 
 @media(max-width: 575px) {
     .stickman {
-        right: -40rem;
-        width: 4rem;
-        top: 2rem;
+        right: -45rem;
+        width: 5rem;
+        top: 1rem;
     }
 
     .play {
-        width: 4rem;
+        width: 5rem;
     }
 
     .calory {
         max-width: 13rem;
         height: 10rem;
-        top: 17rem;
-        left: calc(100vw / 32);
+        top: 20rem;
+        left: 3rem;
         border-radius: .8rem;
     }
 
     .autoGraphics {
-        bottom: 4.5rem;
-        right: calc(100vw /32)
+        bottom: 5rem;
+        right: 0rem;
     }
 
     .phone__player {
@@ -409,28 +470,31 @@
     }
 
     .swiper__slide-absolutes {
-        left: calc(100vw / 4) !important;
+        right: -3rem;
     }
 
-    .swiper-slide__absolute-graphics {
-        width: 5rem;
-    }
 }
 
 @media(max-width: 475px) {
     .stickman {
-        right: -35rem;
-        width: 4rem;
-        top: 1rem;
+        right: -37rem;
+        width: 5rem;
+        top: 0rem;
     }
 
     .autoGraphics {
-        bottom: 3.5rem;
-        right: 2rem;
+        bottom: 4rem;
+        right: 0rem;
     }
 
     .autoGraphics img {
-        width: 4rem;
+        width: 6rem;
+    }
+
+    .main {
+        margin-top: 0;
+        overflow-x: hidden;
+        padding: 5rem 0;
     }
 
     .install {
@@ -440,13 +504,13 @@
     .calory {
         max-width: 10rem;
         height: 7rem;
-        top: 15rem;
-        left: calc(100vw / 24);
+        top: 16rem;
+        left: 3rem;
         border-radius: .8rem;
     }
 
     .swiper__text {
-        width: 95%;
+        width: 90vw;
     }
 
     .type-title-number {
@@ -467,13 +531,10 @@
         height: 30rem;
     }
 
-    .swiper-slide__absolute-graphics {
-        width: 4rem;
-    }
 
     .swiper__slide-absolutes {
-        left: calc(100vw / 3.8) !important;
-        top: 9rem;
+        left: 15rem !important;
+        top: 11rem;
     }
 
     .mySwiper2 {
@@ -490,29 +551,47 @@
     }
 
     .swiper-slide__absolute-image1 {
-        bottom: 15rem;
-        left: calc(100vw / 2.5);
-        height: 7rem;
-        min-height: unset;
-        max-height: unset;
-        border-radius: .8rem;
+        width: 20rem;
+        height: 15rem;
+        border-radius: 1.8rem;
+        left: 20rem;
+        bottom: 20rem;
+    }
+
+    .type-level {
+        font-size: 1rem !important;
+        top: 1.6rem !important;
+        left: 1.6rem !important;
+    }
+
+    .type-level-about {
+        font-size: 1.2rem !important;
+        line-height: 1.8rem !important;
+        bottom: 1.6rem !important;
+        left: 1.6rem !important;
+        height: 1.6rem !important;
+    }
+
+    .type-title-why {
+        font-size: 2rem;
+        line-height: 3rem;
     }
 }
 
 @media(max-width: 430px) {
     .play {
-        width: 3rem;
+        width: 4rem;
     }
 
     .stickman {
-        right: -31rem;
-        width: 3rem;
+        right: -34rem;
+        width: 4rem;
         top: 1rem;
     }
 
     .swiper__slide-absolutes {
-        left: calc(100vw / 4.2) !important;
-        top: 8rem;
+        left: 12rem !important;
+        top: 10rem;
     }
 
     .swiper__text {
@@ -520,9 +599,14 @@
     }
 
     .swiper-slide__absolute-image1 {
-        max-width: 13rem;
-        height: 10rem;
-        bottom: 7rem;
+        max-width: 15rem;
+        height: 12rem;
+        bottom: 12rem;
+        left: 15rem;
+    }
+
+    .types {
+        margin-top: 6rem;
     }
 
     .mySwiper2 .swiper-slide {
@@ -530,28 +614,13 @@
         height: 22rem;
     }
 
-    .type-level {
-        font-size: 1.2rem;
-        line-height: 1.6rem;
-        top: 1.6rem;
-        left: 1.6rem;
-    }
-
-    .type-level-about {
-        font-size: 1.4rem;
-        line-height: 2.4rem;
-        height: 4rem;
-        bottom: 1.6rem;
-        left: 1.6rem;
+    .appstore,
+    .google {
+        width: 15rem;
     }
 
     .mySwiper2 {
         height: 40rem;
-    }
-
-    .type-title-why {
-        font-size: 2rem;
-        line-height: 3rem;
     }
 
     .swiper__text {
@@ -562,6 +631,32 @@
     .main__swiper .download__block {
         margin-top: 4rem;
     }
+
+    .swiper-slide__absolute-graphics {
+        width: 8rem;
+    }
+
+    .phone__player.w100 {
+        width: 60rem;
+        height: 30rem;
+        max-width: unset;
+    }
+
+    .type-level {
+        font-size: 1rem !important;
+        top: 1.6rem !important;
+        left: 1.6rem !important;
+    }
+
+    .type-level-about {
+        font-size: 1.2rem !important;
+        line-height: 1.8rem !important;
+        bottom: 1.6rem !important;
+        left: 1.6rem !important;
+        height: 3rem !important;
+    }
+
+
 }
 
 @media(max-width: 375px) {

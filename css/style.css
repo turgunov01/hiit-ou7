@@ -35,6 +35,7 @@ html {
     overflow-x: hidden;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -468,3 +469,22 @@ ul {
     margin: 2rem 0;
 }
 
+
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    column-gap: 1.3rem;
+    color: white;
+}
+
+.header__logo-image {
+    background: white;
+    border-radius: 1.2rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.logo__name {
+    font-weight: 600;
+}
