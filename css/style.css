@@ -337,6 +337,8 @@ ul {
     left: 2rem;
     font-weight: 700;
     text-transform: uppercase;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
 }
 
 .type-level-about {
@@ -351,6 +353,10 @@ ul {
     height: 6rem;
     display: flex;
     align-items: flex-start;
+}
+
+.swiper-pagination-bullet-active {
+    background: #1DCCFD !important;
 }
 
 .mySwiper2 .swiper-slide-active {
