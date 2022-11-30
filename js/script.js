@@ -34,7 +34,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   var swiper2 = new Swiper(".mySwiper2", {
     centeredSlides: true,
-    // loop: true,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+    },
+
     slidesPerView: 'auto',
     spaceBetween: 50,
     speed: 1000,
