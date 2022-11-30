@@ -662,6 +662,23 @@
 @media(max-width: 375px) {
     .stickman {
         right: -27rem;
+        width: 3.5rem;
+    }
+
+    .play {
+        width: 3.5rem;
+    }
+
+    .autoGraphics img {
+        width: 4rem;
+    }
+
+    .woman__footer {
+        max-width: 90%;
+    }
+
+    .autoGraphics {
+        bottom: 3rem;
     }
 
     .calory {
@@ -682,11 +699,11 @@
     }
 
     .phone__player.first {
-        left: -38%;
+        left: -32%;
     }
 
     .phone__player.second {
-        left: 38%;
+        left: 32%;
     }
 
     .swiper-slide__absolute-graphics {
@@ -694,16 +711,25 @@
     }
 
     .swiper__slide-absolutes {
-        left: calc(100vw / 1.5) !important;
+        left: 10rem !important;
         top: 10rem;
     }
 
     .swiper-slide__absolute-image1 {
-        max-width: 15rem;
+        max-width: 14rem;
         height: 10rem;
         bottom: 13rem;
-        left: calc(100vw / 1.7);
+        left: 17rem;
         backdrop-filter: blur(20px);
+    }
+    .type-title-number {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+
+    .appstore,
+    .google {
+        width: 13rem;
     }
 
     .swiper__text {
@@ -716,5 +742,20 @@
 
     .types {
         margin-top: 6rem;
+    }
+
+    .swiper-title-hiit {
+        font-size: 2.4rem;
+        line-height: 3.4rem;
+    }
+    .type-title-why {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+
+    .banner__title {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        font-weight: 500;
     }
 }

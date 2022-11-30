@@ -488,3 +488,8 @@ ul {
 .logo__name {
     font-weight: 600;
 }
+
+.types .download__block {
+    display: flex;
+    margin-top: 4rem;
+}
