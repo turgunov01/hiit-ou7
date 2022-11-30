@@ -197,6 +197,15 @@
         border-radius: .8rem;
     }
 
+    .footer .header__logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        row-gap: 1.3rem;
+    }
+
     .comment {
         display: none;
     }
@@ -722,6 +731,7 @@
         left: 17rem;
         backdrop-filter: blur(20px);
     }
+
     .type-title-number {
         font-size: 2.4rem;
         line-height: 3.4rem;
@@ -748,6 +758,7 @@
         font-size: 2.4rem;
         line-height: 3.4rem;
     }
+
     .type-title-why {
         font-size: 1.6rem;
         line-height: 2.6rem;

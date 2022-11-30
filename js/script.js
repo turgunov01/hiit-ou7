@@ -17,11 +17,11 @@ document.addEventListener("DOMContentLoaded", function (event) {
         allowSlidePrev: true,
       },
       600: {
-        slidesPerView: 'auto',
+        slidesPerView: 2,
         spaceBetween: 120
       },
       1000: {
-        slidesPerView: 'auto',
+        slidesPerView: 2,
       },
     },
 
