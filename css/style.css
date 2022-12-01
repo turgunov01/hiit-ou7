@@ -153,7 +153,7 @@ ul {
     font-size: 50px;
     line-height: 60px;
     color: white;
-    max-width: 76rem;
+    max-width: 60rem;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -166,7 +166,7 @@ ul {
 
 .comment {
     position: absolute;
-    right: calc(100% / 10);
+    right: 0;
     top: -2.5rem;
 }
 

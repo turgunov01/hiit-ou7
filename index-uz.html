@@ -101,11 +101,15 @@
                 <div class="swiper__title">
 
                     <div class="text-title">
-                        <img src="./img/commentUzbMobile.svg" class="comment mobileComment" alt="">
-                        <img src="./img/commentUzDesktop.svg" class="comment" alt="">
+
 
                         <h1 class="swiper-title-hiit">
-                            OU7 Training ilovasida HIIT mashg'ulotlari
+                            <span class="swiper-title-hiit-span">
+                                OU7 Training ilovasida
+                                <img src="./img/commentUzbMobile.svg" class="comment mobileComment" alt="">
+                                <img src="./img/commentUzDesktop.svg" class="comment" alt="">
+                                HIIT mashg'ulotlari
+                            </span>
                         </h1>
                     </div>
                     <p class="swiper-text-hiit">
@@ -278,7 +282,14 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
 
-    
+
+    <style scoped>
+        .comment {
+            position: absolute;
+            right: 6rem;
+            top: -2.5rem;
+        }
+    </style>
 </body>
 
 </html>

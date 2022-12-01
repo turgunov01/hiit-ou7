@@ -29,6 +29,7 @@
 @media(max-width: 1024px) {
     .comment {
         right: calc(100% / 20);
+        top: -6.5rem;
     }
 
 }
@@ -99,10 +100,7 @@
         max-width: 70rem;
     }
 
-    .comment {
-        right: calc(100% / 20);
-        top: -6.5rem;
-    }
+
 
     .phone__player {
         max-width: 60rem;
