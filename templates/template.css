@@ -307,21 +307,21 @@
 
 .hard {
     background: linear-gradient(88.44deg, #EA611C -0.03%, #FFCF13 100%);
-    padding: 5px 15px;
+    padding: 5px 14px;
     color: #fff;
     border-radius: 20px;
 }
 
 .easy {
     background: linear-gradient(88.44deg, #0186F5 -0.03%, #1DCCFD 100%);
-    padding: 5px 15px;
+    padding: 5px 14px;
     color: #fff;
     border-radius: 20px;
 }
 
 .medium {
     background: linear-gradient(88.44deg, #00DB59 -0.03%, #24FFFE 100%);
-    padding: 5px 15px;
+    padding: 5px 14px;
     color: #fff;
     border-radius: 20px;
 }
